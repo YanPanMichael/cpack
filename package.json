@@ -6,13 +6,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YanPanMichael/@autopack/cpack.git"
+    "url": "https://github.com/YanPanMichael/cpack.git"
   },
   "bugs": {
-    "url": "https://github.com/YanPanMichael/@autopack/cpack/issues",
+    "url": "https://github.com/YanPanMichael/cpack/issues",
     "email": "1214863281@qq.com"
   },
-  "homepage": "https://github.com/YanPanMichael/@autopack/cpack.git",
+  "homepage": "https://github.com/YanPanMichael/cpack.git",
   "keywords": [
     "rollup",
     "@autopack/cpack",
@@ -60,7 +60,7 @@
     "rimraf": "^3.0.0",
     "rollup": "^2.79.1",
     "rollup-plugin-css-porter": "^1.0.2",
-    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-serve": "^1.1.0",
