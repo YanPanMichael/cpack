@@ -1,0 +1,95 @@
+{
+  "name": "@autopack/cpack",
+  "version": "0.0.1",
+  "description": "📦 基于rollup的JS、TS包构建工具 | One common construction and package tool for JS/TS components based on Rollup 📦",
+  "author": "yanpanmichael",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YanPanMichael/@autopack/cpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YanPanMichael/@autopack/cpack/issues",
+    "email": "1214863281@qq.com"
+  },
+  "homepage": "https://github.com/YanPanMichael/@autopack/cpack.git",
+  "keywords": [
+    "rollup",
+    "@autopack/cpack",
+    "javascript bundler",
+    "typescript bundler",
+    "package-bundler"
+  ],
+  "bin": {
+    "cpack": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "release": "qkrelease --skipBuild",
+    "build": "NODE_ENV=production node bin/cli.js --source=ts",
+    "format": "prettier --write .",
+    "lint": "eslint src",
+    "fix": "eslint src/**/*.* --fix",
+    "docs": "docsify serve ./docs"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.22.3",
+    "@babel/plugin-transform-runtime": "^7.22.4",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-replace": "^2.4.2",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "autoprefixer": "^9.8.6",
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.5",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.4",
+    "ora": "^5.4.0",
+    "postcss": "^8.4.24",
+    "pug": "^3.0.2",
+    "rimraf": "^3.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-stylus": "^1.0.4",
+    "rollup-plugin-stylus-compiler": "^1.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-url": "^3.0.0",
+    "shelljs": "^0.8.3",
+    "stylus": "^0.54.8",
+    "terser": "^5.17.7",
+    "tslib": "^2.5.3",
+    "ttypescript": "^1.5.15",
+    "typescript": "^4.9.5",
+    "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "docsify-cli": "^4.4.4",
+    "eslint": "~8.11",
+    "eslint-config-prettier": "~8.5",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.8",
+    "qk-release": "latest"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
