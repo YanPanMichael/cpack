@@ -41,7 +41,7 @@ npm run build # 或 yarn build
 
 ### 自定义配置
 
-可在项目根目录新建 `@autopack/cpack.config.js` 自定义 @autopack/cpack 构建配置（或在 `package.json` 中使用 `@autopack/cpackConfig` 对象配置）。
+可在项目根目录新建 `autopackConfig.config.js` 自定义 @autopack/cpack 构建配置（或在 `package.json` 中使用 `autopackConfig` 对象配置）。
 
 支持自定义banner，可通过指定package.json文件中__cusBannerString__字段值修改本工具品牌名称。
 
