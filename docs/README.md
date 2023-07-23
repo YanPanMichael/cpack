@@ -1,6 +1,6 @@
 <!-- <img src="icon.png" align="right" /> -->
 
-# Struk [](https://github.com/yanppanmichael/@autopack/cpack#readme)
+# @autopack/cpack [](https://github.com/yanppanmichael/@autopack/cpack#readme)
 
 > 📦 基于 rollup 的 JS、TS、Vue、React 包基础核心构建工具
 > One common construction and package tool for JS/TS/Vue/React components based on Rollup 📦

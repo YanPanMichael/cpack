@@ -1,5 +1,5 @@
 <!-- _coverpage.md -->
-# Struk <small></small>
+# @autopack/cpack <small></small>
 > 📦 One common construction and package tool for JS/TS/Vue/React components based on Rollup 📦
 
 ### 安装：npm install --save @autopack/cpack

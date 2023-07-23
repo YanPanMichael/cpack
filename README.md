@@ -1,6 +1,6 @@
 <!-- <img src="icon.png" align="right" /> -->
 
-# Struk [![Struk](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/yanppanmichael/@autopack/cpack#readme)
+# @autopack/cpack [![@autopack/cpack](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/yanppanmichael/autopack-cpack#readme)
 
 [![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-4-0]

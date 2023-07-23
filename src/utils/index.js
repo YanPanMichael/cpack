@@ -89,12 +89,12 @@ function bannerPrint(version, runtime, __cusBannerString__) {
     console.log(`
 ${banner}
 
-           \\__\\_/  ${chalk.italic(
-          (`@${__cusBannerString__||'Struk'}@` + version).padStart(9)
+       \\__\\_/  ${chalk.italic(
+          (`@${__cusBannerString__||'Autopack/cpack'}@` + version).padStart(9)
         )}  \\_/__/
 
 ╭──────────────────────────────────────────────────╮
-│          JS/TS/VUE/REACT Module Builder          │${runtimeStrLine}
+│              JS/TS Module Builder                │${runtimeStrLine}
 ╰──────────────────────────────────────────────────╯
 `)
 }

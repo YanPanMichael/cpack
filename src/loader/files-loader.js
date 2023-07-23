@@ -23,8 +23,6 @@ const getFiles = (entry, extensions = [], excludeExtensions = []) => {
       fileNames.push(path)
     }
   })
-  console.log(`aaa ${fileNames}`)
-
   return fileNames
 }
 

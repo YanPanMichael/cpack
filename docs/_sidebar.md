@@ -1,5 +1,5 @@
 - 介绍
-  - [Struk]()
+  - [@autopack/cpack]()
   - [安装](installation.md)
 
 - API

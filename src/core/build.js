@@ -120,7 +120,7 @@ module.exports = async (cliConfig, custumConfig) => {
       }
     } catch (e) {
       spinner.fail('Oops, Packing error!!')
-      console.error('\n' + e)
+      console.error('\n' + e.message + e.stack)
       shell.exit(1)
     }
     spinner.succeed(`Format: [${config.output.format}] finished!`)

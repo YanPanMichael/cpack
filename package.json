@@ -24,6 +24,10 @@
     "cpack": "bin/cli.js"
   },
   "main": "src/index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "release": "qkrelease --skipBuild",
     "build": "NODE_ENV=production node bin/cli.js --source=ts",
