@@ -88,7 +88,7 @@ batchPackage 布尔状态会自动开启批量打包, 默认批量路径为"./pa
 module.exports = ({ pkg } = {}) => {
   return {
     // 输入
-    input: 'src/index.js',
+    input: 'src/index.ts',
 
     // 输出
     output: {
