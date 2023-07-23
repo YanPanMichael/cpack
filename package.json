@@ -1,6 +1,6 @@
 {
   "name": "@autopack/cpack",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "📦 基于rollup的JS、TS包构建工具 | One common construction and package tool for JS/TS components based on Rollup 📦",
   "author": "yanpanmichael",
   "license": "MIT",
