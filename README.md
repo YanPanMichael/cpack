@@ -8,17 +8,17 @@
 [![MIT][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-> 📦 基于 rollup 的 JS、TS、Vue2、React 包基础核心构建工具
-> One common construction and package tool for JS/TS/Vue2/React components based on Rollup 📦
+> 📦 基于 rollup 的 JS、TS 包基础核心构建工具
+> One common construction and package tool for JS/TS components based on Rollup 📦
 
 ## ✨ Features
 
 - 基于 rollup 的基础核心构建工具
-- 支持 Javascript、Typescript、Vue2、React
+- 支持 Javascript、Typescript
 - 支持自定义banner，可通过指定package中__cusBannerString__字段值修改本工具品牌名称
 
 - Basic core build tools based on rollup
-- Supports mutiple frameworks such as JavaScript, TypeScript, Vue2, React
+- Supports mutiple frameworks such as JavaScript, TypeScript
 - Support custom banner, you can modify the brand name of this tool by specifying the value of the __cusBannerString__ field in the package
 
 ## 🚀 Quick Start
@@ -39,9 +39,9 @@ npm i -D @autopack/cpack@latest # OR yarn add -D @autopack/cpack@latest
   },
 ```
 
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts', 'vue', 'react'`四种格式之一。
+需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`四种格式之一。
 
-You need to specify the build and packaging source file format through the parameter 'source', and its values are one of the four formats of 'js', 'ts', 'vue', 'react''.
+You need to specify the build and packaging source file format through the parameter 'source', and its values are one of the four formats of 'js', 'ts'.
 
 **Second Step**：Goes to the project directory and runs:
 

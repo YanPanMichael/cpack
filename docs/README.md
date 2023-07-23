@@ -2,13 +2,13 @@
 
 # @autopack/cpack [](https://github.com/yanppanmichael/@autopack/cpack#readme)
 
-> 📦 基于 rollup 的 JS、TS、Vue、React 包基础核心构建工具
-> One common construction and package tool for JS/TS/Vue/React components based on Rollup 📦
+> 📦 基于 rollup 的 JS、TS 包基础核心构建工具
+> One common construction and package tool for JS/TScomponents based on Rollup 📦
 
 ## ✨ 特性
 
 - 基于 rollup 的基础核心构建工具
-- 支持 javascript、typescript、vue、react
+- 支持 javascript、typescript
 - 支持自定义banner，可通过指定package中__cusBannerString__字段值修改本工具品牌名称
 
 ## 🚀 快速开始
@@ -29,7 +29,7 @@ npm i -D @autopack/cpack # 或 yarn add -D @autopack/cpack
   },
 ```
 
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts', 'vue', 'react'`四种格式之一。
+需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`格式之一。
 
 **第二步**：命令行进入项目目录，运行：
 

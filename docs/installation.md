@@ -14,7 +14,7 @@ npm i -D @autopack/cpack # 或 yarn add -D @autopack/cpack
   },
 ```
 
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts', 'vue', 'react'`四种格式之一。
+需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`四种格式之一。
 
 **第二步**：命令行进入项目目录，运行：
 

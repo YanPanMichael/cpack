@@ -32,9 +32,9 @@ module.exports = (custumConfig) => {
     sourceFormat
   )
 
-  if (!['js', 'ts', 'vue', 'react'].includes(sourceFormat)) {
+  if (!['js', 'ts'].includes(sourceFormat)) {
     return console.log(
-      '😑 Please input source format which includes js | ts | vue | react \n'
+      '😑 Please input source format which includes js | ts \n'
     )
   }
 
