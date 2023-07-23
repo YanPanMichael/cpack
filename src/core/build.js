@@ -64,6 +64,7 @@ module.exports = async (cliConfig, custumConfig) => {
     console.log('\npkg: ', pkg)
     console.log('\npackConfig: ', packConfig)
     console.log('\nrollupConfigs: ', rollupConfigs)
+    !!packConfig.batchPackage && console.log('\n batchPackage Input: ', rollupConfigs.input)
   }
 
   if (!fs.existsSync(packConfig.output.directory)) {

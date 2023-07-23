@@ -41,7 +41,7 @@ npm run build # 或 yarn build
 
 ### 自定义配置
 
-可在项目根目录新建 `autopackConfig.config.js` 自定义 @autopack/cpack 构建配置（或在 `package.json` 中使用 `autopackConfig` 对象配置）。
+可在项目根目录新建 `autopack.config.js` 自定义 @autopack/cpack 构建配置（或在 `package.json` 中使用 `autopackConfig` 对象配置）。
 
 支持自定义banner，可通过指定package.json文件中__cusBannerString__字段值修改本工具品牌名称。
 
@@ -135,7 +135,7 @@ module.exports = ({ pkg } = {}) => {
     },
     skipAlert: true, //重复路径是否提示覆盖并继续构建，默认不提示
     templateBase: 'examples/',
-    batchPackage: false, //是否批量打包packages路径下的组件
+    batchPackage: false, //是否批量打包packages路径下的组件, 默认打包路径, 会覆盖input路径
     replaceMaps: {}
   }
 }

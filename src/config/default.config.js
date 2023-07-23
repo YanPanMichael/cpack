@@ -58,7 +58,7 @@ module.exports = ({ pkg, cwd } = {}) => {
     skipAlert: true,
     templateBase: 'examples/', // rollup-plugin-serve build base
     // devServeInput: 'examples/index.js', // rollup-plugin-serve build input file
-    batchPackage: false, // 是否批量打包packages路径下的组件
+    batchPackage: false, // 是否批量打包packages路径下的组件, 默认打包路径, 会覆盖input路径
     stylusAlias: {
       '@': path.join(cwd, './node_modules/@')
     },
