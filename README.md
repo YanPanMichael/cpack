@@ -35,7 +35,7 @@ npm i -D @autopack/cpack@latest # OR yarn add -D @autopack/cpack@latest
 
 ```js
   "scripts": {
-    "build": "NODE_ENV=production @autopack/cpack build --source=js"
+    "build": "NODE_ENV=production cpack build --source=js"
   },
 ```
 
@@ -49,9 +49,9 @@ You need to specify the build and packaging source file format through the param
 npm run build # OR yarn build
 ```
 
-@autopack/cpack 默认以 `src/index.js` 为入口，在 `dist` 目录输出 `'umd', 'es', 'cjs', 'iife', 'amd'` 五种格式的构建包（包含未压缩和已压缩版本）。
+@autopack/cpack 默认以 `src/index.ts` 为入口，在 `dist` 目录输出 `'umd', 'es', 'cjs', 'iife', 'amd'` 五种格式的构建包（包含未压缩和已压缩版本）。
 
-@autopack/cpack defaults to 'src/index.js' as the entry, and outputs 'umd', 'es', 'cjs', 'iife', 'amd'' build packages (including uncompressed and compressed versions) in the 'dist' directory.
+@autopack/cpack defaults to 'src/index.ts' as the entry, and outputs 'umd', 'es', 'cjs', 'iife', 'amd'' build packages (including uncompressed and compressed versions) in the 'dist' directory.
 
 ### Custom Config
 
@@ -112,7 +112,7 @@ batchPackage 布尔状态会自动开启批量打包, 默认批量路径为"./pa
 module.exports = ({ pkg } = {}) => {
   return {
     // 输入 Input
-    input: 'src/index.js',
+    input: 'src/index.ts',
 
     // 输出 Output
     output: {

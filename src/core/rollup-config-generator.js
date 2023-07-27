@@ -11,7 +11,6 @@ const json = require('@rollup/plugin-json')
 // const livereload = require('rollup-plugin-livereload')
 const alias = require('@rollup/plugin-alias')
 const postcss = require('rollup-plugin-postcss')
-const ttypescript = require('ttypescript')
 const typescript = require('rollup-plugin-typescript2')
 const presetEnv = require('@babel/preset-env')
 const babel = require('@rollup/plugin-babel').babel
@@ -159,7 +158,7 @@ module.exports = (packConfig, pkg, formatMapping, cliConfig) => {
       },
       useTsconfigDeclarationDir: true,
       // emitDeclarationOnly: true,
-      typescript: ttypescript
+      typescript: require('typescript')
     },
     postBase: [
       filesize(),

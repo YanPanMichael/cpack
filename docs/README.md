@@ -25,7 +25,7 @@ npm i -D @autopack/cpack # 或 yarn add -D @autopack/cpack
 
 ```js
   "scripts": {
-    "build": "NODE_ENV=production @autopack/cpack build --source=js"
+    "build": "NODE_ENV=production cpack build --source=js"
   },
 ```
 
@@ -37,7 +37,7 @@ npm i -D @autopack/cpack # 或 yarn add -D @autopack/cpack
 npm run build # 或 yarn build
 ```
 
-@autopack/cpack 默认以 `src/index.js` 为入口，在 `dist` 目录输出 `'umd', 'es', 'cjs', 'iife', 'amd'` 五种格式的构建包（包含未压缩和已压缩版本）。
+@autopack/cpack 默认以 `src/index.ts` 为入口，在 `dist` 目录输出 `'umd', 'es', 'cjs', 'iife', 'amd'` 五种格式的构建包（包含未压缩和已压缩版本）。
 
 ### 自定义配置
 
